@@ -19,6 +19,16 @@ namespace testeef.Controllers
       return categories;
     }
 
+    [HttpGet]
+    [Route("{id:int}")]
+    public async Task<ActionResult<Category>> GetById([FromServices] DataContext context, int id)
+    {
+      var category = await context.Categories
+        .AsNoTracking()
+        .FirstOrDefaultAsync(x => x.Id == id);
+      return category;
+    }
+
     [HttpPost]
     [Route("")]
     public async Task<ActionResult<Category>> Post(
