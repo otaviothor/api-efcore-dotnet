@@ -1,0 +1,27 @@
+GET https://localhost:5001/v1/categories HTTP/1.1
+
+###
+
+POST https://localhost:5001/v1/categories HTTP/1.1
+content-type: application/json
+
+{
+	"title": "Categoria 01"
+}
+
+###
+
+GET https://localhost:5001/v1/products HTTP/1.1
+
+###
+
+GET https://localhost:5001/v1/products/1 HTTP/1.1
+
+###
+
+POST https://localhost:5001/v1/products HTTP/1.1
+content-type: application/json
+
+{
+	"title": "Categoria 01"
+}
