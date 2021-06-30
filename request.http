@@ -2,11 +2,15 @@ GET https://localhost:5001/v1/categories HTTP/1.1
 
 ###
 
+GET https://localhost:5001/v1/categories/2 HTTP/1.1
+
+###
+
 POST https://localhost:5001/v1/categories HTTP/1.1
 content-type: application/json
 
 {
-	"title": "Categoria 01"
+	"title": "Categoria 03"
 }
 
 ###
@@ -19,9 +23,16 @@ GET https://localhost:5001/v1/products/1 HTTP/1.1
 
 ###
 
+GET https://localhost:5001/v1/products/categories/34 HTTP/1.1
+
+###
+
 POST https://localhost:5001/v1/products HTTP/1.1
 content-type: application/json
 
 {
-	"title": "Categoria 01"
+	"title": "Produto 07",
+	"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+	"price": 1299,
+	"categoryId": 3
 }
