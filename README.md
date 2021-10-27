@@ -9,7 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto é uma API de Produtos com ASP.NET Core e Entity Framework Core.
+O projeto é uma API de Produtos com ASP.NET Core e Entity Framework Core
 
 ## 🚀 Como executar
 
