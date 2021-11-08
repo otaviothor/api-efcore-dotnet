@@ -1,4 +1,4 @@
-<p align="center"><a href="https://nodejs.org/en" target="_blank"><img src="./.github/dotnet-logo.png" width="400"></a></p>
+<p align="center"><a href="https://dotnet.microsoft.com/" target="_blank"><img src="./.github/dotnet-logo.png" width="400"></a></p>
 
 ## ✨ Tecnologias
 
