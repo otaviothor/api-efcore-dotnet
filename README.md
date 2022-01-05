@@ -9,7 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto é uma API de Produtos com ASP.NET Core e Entity Framework Core
+O projeto é uma API de Produtos com ASP.NET Core e Entity Framework Core.
 
 ## 🚀 Como executar
 
@@ -25,4 +25,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Feito por [otávio silva](https://otaviothor.github.io/) 🙃
+Feito por [otávio silva](https://otaviosilva.dev/) 🙃
